@@ -1,0 +1,11 @@
+1/Gomez/Cruz/Adrian/5512345678/adriangomez@gmail.com/Av. Reforma 123/7/0
+2/Martinez/Lopez/Elena/5523456789/elenamtz@gmail.com/Calle Juarez 45/102/4
+3/Rodriguez/Sosa/Carlos/5534567890/carlosrod@gmail.com/Paseo del Sol 78/6/7
+4/Hernandez/Perez/Sofia/5545678901/sofiahdez@gmail.com/Colonia Centro 12/1/2
+5/Villalobos/Ruiz/Javier/5556789012/javivilla@gmail.com/Ruta 66 Km 5/105/205
+6/Ortega/Blanco/Lucia/5567890123/luciaort@gmail.com/Av. Universidad 500/106/9
+7/Torres/Mendez/Ricardo/5578901234/ricktorres@gmail.com/Calle del Hierro 9/2/4
+8/Castillo/Luna/Fernanda/5589012345/fercas@gmail.com/Mirador 302/1/2
+9/Reyes/Guzman/Mauricio/5590123456/maureyes@gmail.com/Privada Sauces 4/121/209
+10/Peralta/Domínguez/Valeria/5501234567/valperalta@gmail.com/Eje Central 88/7/8
+11/Quispe/Malma/Francesco/997043273/frane@gmail.com/urb. sada 123/2/7
