@@ -237,6 +237,8 @@ int main(){
         l1.insertar(palabra[i]);
     }
     l1.imprimir();
+    l1.insertar('z');
+    l1.insertar('y');
     cout<<"Inorder   : ";
     l1.inOrder();
     cout<<"Preorder  : ";
@@ -247,7 +249,6 @@ int main(){
     l1.buscar('a');
     l1.eliminar('l');
     l1.imprimir();
-    //l1.insertar('e');
     //l1.insertar('l');
     //l1.insertar('a');
     //l1.insertar('b');
