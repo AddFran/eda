@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <conio.h>
 using namespace std;
 
 struct Node{
@@ -269,5 +270,6 @@ int main(){
     //l1.imprimir();
     //l1.eliminar('p');
     //l1.imprimir();
+    getch();
     return 0;
 }
