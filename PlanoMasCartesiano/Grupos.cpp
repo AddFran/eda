@@ -8,6 +8,14 @@ using namespace std;
 
 void Grupos::add(char c,int x,int y){
     Node* nuevo=new Node(c,x,y);
+    Node* suport=head;
+    while(suport){
+        if((x==suport->x && y==suport->y) || c==suport->name){
+            cout<<"Error, punto ya existente."<<endl;
+            return;
+        }
+        suport=suport->next;
+    }
     nuevo->next=head;
     head=nuevo;
 
@@ -55,6 +63,14 @@ void Grupos::show(){
         current=current->next;
     }
     cout<<endl;
+}
+void Grupos::showData(){
+    Node* current=head;
+    cout<<"Lista de puntos:"<<endl;
+    while(current){
+        cout<<"Punto "<<current->name<<"("<<current->x<<","<<current->y<<") pertenece al grupo "<<current->idGrupo<<endl;
+        current=current->next;
+    }
 }
 int Grupos::getSize(){
     Node* current=head;

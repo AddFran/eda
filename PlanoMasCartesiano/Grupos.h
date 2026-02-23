@@ -9,6 +9,7 @@ class Grupos{
         void add(char,int,int);
         void add(char,int,int,int);
         void show();
+        void showData();
         int getSize();
         bool comprobarCoor(Node*); // No puede haber dos puntos con la misma coordenada (o se sobreescribe, no se)
         Node* getHead();

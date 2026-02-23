@@ -7,6 +7,7 @@ using namespace std;
 void Menu::interfaz(){
     PlanoCartesiano p1(20,20);
     Grupos g1;
+    bool flag=true;
     // Grupos predefinido (dos grupos)
     g1.add('A',19,17,1);
     g1.add('B',18,18,1);
@@ -15,7 +16,7 @@ void Menu::interfaz(){
     g1.add('E',4,5,2);
     g1.add('F',3,3,2);
     g1.add('G',6,1,2);
-    while(true){
+    while(flag){
         system("cls");
         int choice;
         char choice2;
@@ -28,6 +29,8 @@ void Menu::interfaz(){
         cout<<"=================================="<<endl;
         cout<<" 1. Ingresar un punto"<<endl;
         cout<<" 2. Ver plano"<<endl;
+        cout<<" 3. Ver datos de los puntos"<<endl;
+        cout<<" 4. Salir"<<endl;
         cout<<"=================================="<<endl;
         cout<<"Opcion: ";
         cin>>choice;
@@ -54,7 +57,20 @@ void Menu::interfaz(){
                 cout<<"Presione cualquier tecla para continuar..."<<endl;
                 getch();
                 break;
+            case 3:
+                system("cls");
+                p1.show(g1);
+                g1.showData();
+                getch();
+                break;
+            case 4:
+                system("cls");
+                flag=false;
+                cout<<"Saliendo del sistema..."<<endl;
             default:
+                system("cls");
+                cout<<"Ingrese una opcion valida..."<<endl;
+                getch();
                 break;
         }
     }
