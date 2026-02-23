@@ -1,6 +1,6 @@
 # CONTENIDO DEL REPOSITORIO
 
-##AGENDA
+## AGENDA
 <img width="928" height="366" alt="image" src="https://github.com/user-attachments/assets/c0a31c9f-d712-4a53-a0b2-fcc2f293a37f" />
 <img width="1602" height="322" alt="image" src="https://github.com/user-attachments/assets/4f4cfd8d-616a-437b-ad39-35efba016be2" />
 <img width="772" height="325" alt="image" src="https://github.com/user-attachments/assets/6c2ce3e2-b626-4c4d-afc4-9327dff78500" />
